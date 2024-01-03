@@ -1,0 +1,10 @@
+FROM postgres:13-alpine
+
+# Set environment variables
+ENV POSTGRES_USER user
+ENV POSTGRES_PASSWORD user
+ENV POSTGRES_DB salary_app_db
+
+
+# Expose the PostgreSQL port
+#EXPOSE 5432
